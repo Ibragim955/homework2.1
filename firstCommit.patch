@@ -1,0 +1,283 @@
+Subject: [PATCH] firstCommit
+---
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
++++ b/.gitignore	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
+@@ -0,0 +1,29 @@
++### IntelliJ IDEA ###
++out/
++!**/src/main/**/out/
++!**/src/test/**/out/
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++bin/
++!**/src/main/**/bin/
++!**/src/test/**/bin/
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
++++ b/.idea/misc.xml	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
++++ b/.idea/modules.xml	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/homework2.1.iml" filepath="$PROJECT_DIR$/homework2.1.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
++++ b/.idea/vcs.xml	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
++++ b/.idea/workspace.xml	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
+@@ -0,0 +1,75 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="d78c6c24-90d0-4f25-99ab-9be9764c74b2" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/homework2.1.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="2M6WnEk5W17KDLplhBfvJqcOSiE" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  }
++}</component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="d78c6c24-90d0-4f25-99ab-9be9764c74b2" name="Changes" comment="" />
++      <created>1677088679398</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1677088679398</updated>
++      <workItem from="1677088680656" duration="1424000" />
++      <workItem from="1677303058120" duration="632000" />
++      <workItem from="1677353548942" duration="8734000" />
++      <workItem from="1677518504795" duration="6323000" />
++    </task>
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++</project>
+\ No newline at end of file
+Index: homework2.1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/homework2.1.iml b/homework2.1.iml
+new file mode 100644
+--- /dev/null	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
++++ b/homework2.1.iml	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: src/Person.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Person.java b/src/Person.java
+new file mode 100644
+--- /dev/null	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
++++ b/src/Person.java	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
+@@ -0,0 +1,59 @@
++import java.util.Arrays;
++
++   class main {
++
++       public static void main(String[] args) {
++           task1();
++           task2();
++           task3();
++           task4();
++
++       }
++
++
++       private static void task1() {
++           int value = 33;
++           changeValue(value);
++           System.out.println(value);
++       }
++
++       private static void changeValue(int value) {
++           value = 22;
++
++       }
++
++       private static void task2() {
++           Integer value = 33;
++           changeValue(value);
++           System.out.println(value);
++
++       }
++
++       private static void changeValue(Integer value) {
++           value = 22;
++       }
++
++       private static void task3() {
++           Integer[] value = new Integer[]{3, 4};
++           changeValue(value);
++           System.out.println(Arrays.toString(value));
++       }
++
++       private static void changeValue() {
++           Integer[] value = new Integer[]{1, 2};
++       }
++
++
++       private static void task4() {
++           Integer[] value = new Integer[]{3, 4};
++           changeValue(value);
++           System.out.println(Arrays.toString(value));
++       }
++
++       private static void changeValue(Integer[] value) {
++           value[0] = 99;
++       }
++
++   }
++
++
+Index: src/main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main.java b/src/main.java
+new file mode 100644
+--- /dev/null	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
++++ b/src/main.java	(revision ec4f2dc478866f19a036fe94209434b7af756d2b)
+@@ -0,0 +1,1 @@
++
